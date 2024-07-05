@@ -1,5 +1,5 @@
+import HeaderBox from "@/components/ui/HeaderBox";
 import TotalBalanceBox from "@/components/ui/TotalBalanceBox";
-import HeaderBox from "@/components/ui/headerBox";
 
 const Home = () => {
   const loggedin = { firstname: "Ehsaas" };
@@ -18,7 +18,7 @@ const Home = () => {
         <TotalBalanceBox 
         account={[]}
         totalBanks={1}
-        totalCurrentBalance={1251.15}
+        totalCurrentBalance={1251.35}
         />
       </div>
     </section>
